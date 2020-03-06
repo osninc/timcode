@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbarrios1907/dynamic-stay.git"
+    "url": ""
   },
   "engines": {
     "node": "12.11.1"
@@ -18,12 +18,12 @@
     "express",
     "axios"
   ],
-  "author": "dbarrios1907@gmail.com",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dbarrios1907/dynamic-stay/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/dbarrios1907/dynamic-stay#readme",
+  "homepage": "",
   "dependencies": {
     "axios": "^0.19.2",
     "consola": "^2.11.3",
