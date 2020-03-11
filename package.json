@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "start": "cd ./server/ && npm i && node ./index.js",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@ag-grid-community/all-modules": "^22.1.1",
@@ -17,7 +18,9 @@
     "ag-grid-vue": "^22.1.1",
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "firebase": "^7.9.3",
+    "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vue-property-decorator": "^8.4.0",
     "vuetify": "^2.2.11"
